@@ -35,7 +35,7 @@ $(document).on("click", ".script", function() {
             <a class="back">Home</a>
             <h1>${id} Language</h1>
             <p>${data.language[id].info}</p>
-            <div class="image" style="background-image: url('images/language/${id}.jpg')"></div>
+            <div class="image" style="background-image: url('images/Language/${id}.jpg')"></div>
             ${data.language[id].pronunciation ? 
             `<table>
                 <header>Pronunciation Notes</header>
@@ -68,7 +68,7 @@ $(document).on("click", ".script", function() {
         <div class="text">
             <a class="back">Home</a>
             <h1>${id}</h1>
-            <div class="image" style="background-image: url('images/city/${id}.jpg')"></div>
+            <div class="image" style="background-image: url('images/City/${id}.jpg')"></div>
             ${data.city[id].history.map((c)=>
                 `<p>${c}</p>`
             ).join('')}
@@ -77,7 +77,7 @@ $(document).on("click", ".script", function() {
                     <p>${c.name}</p>
                 </div>
                 <p>${c.information}</p>
-                <div class="image" style="background-image: url('images/city/${id}${c.image}.jpg')"></div>`
+                <div class="image" style="background-image: url('images/City/${id}${c.image}.jpg')"></div>`
             ).join('')}
         </div>
         `);
@@ -87,11 +87,11 @@ $(document).on("click", ".script", function() {
         <div class="text">
             <a class="back">Home</a>
             <h1>${id} - ${data.country[id].nativename}</h1>
-            <img class='flag' src='images/flag/${id}Flag.jpg' width="600" height="400">
+            <img class='flag' src='images/Flag/${id}Flag.jpg' width="600" height="400">
             ${data.country[id].history.map((c)=>
                 `<p>${c}</p>`
             ).join('')}
-            <div class="image" style="background-image: url('images/country/${id}.jpg')"></div>
+            <div class="image" style="background-image: url('images/Country/${id}.jpg')"></div>
             <div class="countryinfo" style="font-size: 1.5em">
                 <p>Cities:
                 ${data.country[id].cities.map((c)=>
