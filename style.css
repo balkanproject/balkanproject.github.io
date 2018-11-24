@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather';
+}
+.script{
+    width: 33.33%;
+    float: left;
+    height: 31vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.script h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 48px;
+    color: white;
+}
+.Country{
+    background-color: #842abf50;
+    height: 31vh;
+}
+.Language{
+    background-color: #fa661e50;
+    height: 31vh;
+}
+.City{
+    background-color: #1e63ee50;
+    height: 31vh;
+}
+.Country h1{
+    padding-top: 1.8em;
+}
+.Language h1{
+    padding-top: 1.8em;
+}
+.City h1{
+    padding-top: 1.8em;
+}
+.back{
+    text-decoration: underline;
+    color: #ff9500;
+    text-align: left;
+    font-size: 2.5em;
+    padding: 0.3em;
+    cursor: pointer;
+}
+.text{
+    background-color: #1e1e1e;
+    color: white;
+}
+.text h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 4em;
+}
+.text p{
+    font-size: 1.2em;
+    padding: 1.2em;
+}
+.image{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+table{
+    color: white;
+    font-size: 28px;
+    width: 40% !important;
+    text-align: center;
+}
+th{
+    border-bottom: 1px white solid;
+    padding: 0.2em !important;
+    width: 10%;
+}
+td{
+    border-bottom: 1px white solid;
+    padding: 0.2em !important;
+}
+header{
+    font-size: 32px;
+    padding: 48px !important;
+}
+.flag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    width: 33.33%;
+    height: 7vh;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    float: left;
+}
+#countrytab{
+    background-color: #842abf;
+}
+#citytab{
+    background-color: #fa661e;
+}
+#languagetab{
+    background-color: #1e63ee;
+}
